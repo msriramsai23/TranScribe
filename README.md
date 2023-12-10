@@ -2,44 +2,76 @@
 
 ## Overview
 
-This repository contains an implementation of a Transformer model, a powerful neural network architecture introduced in the paper "Attention is All You Need" by Vaswani et al. The Transformer model has achieved state-of-the-art results in various natural language processing tasks, including machine translation, text summarization, and language modeling.
+This repository contains four machine learning models for Neural Machine Translation (NMT):
+
+* Helsinki-MT: This is a Transformer-based NMT model trained on the Helsinki Corpora. It supports translation between a variety of language pairs.
+* Meta-NLLB-200: This is a state-of-the-art NMT model from Meta AI that supports translation between 200 languages. It is based on the No Language Left Behind (NLLB) project, which aims to develop high-quality machine translation capabilities for most of the world's languages.
+* Transformer: This is the original Transformer model for NMT, which was first introduced in the paper "Attention is All You Need" by Vaswani et al. (2017).
+* Custom Model: This is a template for creating your own custom NMT model.
 
 ## Features
 
-Self-attention Mechanism: The model utilizes self-attention mechanisms to capture long-range dependencies in input sequences.
+### Helsinki-MT:
 
-Multi-head Attention: Multi-head attention allows the model to focus on different parts of the input sequence simultaneously, enhancing its ability to learn complex patterns.
+* Supports a wide range of languages: Trained on the Helsinki Corpora, which includes data for many European languages.
+* Fast and efficient: Delivers fast translation speeds and efficient resource utilization.
+* Easy to use: Provides a simple API for easy integration into your applications.
+* Open-source: Freely available for use and modification under the MIT License.
 
-Positional Encoding: To incorporate the order of elements in a sequence, positional encodings are added to the input embeddings.
+### Meta-NLLB-200:
 
-Feedforward Neural Network: The model includes feedforward neural networks to process information after attention mechanisms.
+* Unprecedented language coverage: Supports translation between a staggering 200 languages.
+* State-of-the-art performance: Achieves high translation quality across various language pairs.
+* Built for diverse languages: Handles low-resource languages effectively, promoting accessibility.
+* Continuous development: Actively maintained and updated by Meta AI researchers.
+  
+### Transformer:
 
-Layer Normalization and Residual Connections: These components are employed to stabilize and facilitate the training of deep networks.
+* Pioneering architecture: Introduced the novel Transformer architecture, revolutionizing NMT.
+* Highly flexible: Can be adapted to various language tasks beyond translation.
+* Extensive research base: Supported by a vast body of research and development efforts.
+* Easy to interpret: Allows visualization and analysis of the attention mechanism.
+  
+### Custom Model:
 
-Encoder and Decoder Architecture: The Transformer model consists of an encoder and decoder, making it suitable for sequence-to-sequence tasks.
+* Tailored to your needs: Build a model optimized for specific languages or domains.
+* Full control over training: Fine-tune hyperparameters and experiment with different architectures.
+* Open for exploration: Investigate and develop new NMT techniques and approaches.
+* Empowers creativity: Allows researchers and developers to push the boundaries of NMT.
+  
+## Requirements:
 
-## Dependencies
-
-Python (>=3.6)
-
-TensorFlow (>=2.0) or PyTorch (>=1.0)
-
-NumPy
-
-Matplotlib (for visualization, optional)
-
-## Model Architecture
-
-The Transformer model consists of the following components:
-
-Encoder: Composed of multiple identical layers, each containing self-attention and feedforward sub-layers.
-
-Decoder: Also composed of multiple identical layers, with additional masked self-attention layer to prevent attending to future tokens.
-For a detailed architecture diagram, refer to the model_architecture.png file in the repository.
+* Python 3.6+
+* TensorFlow 2.x
+* PyTorch (optional)
+* NumPy
+* Matplotlib (for visualization, optional)
 
 ## References
 
-Attention is All You Need by Vaswani et al.
+### Helsinki-MT:
+* Helsinki Corpora: https://varieng.helsinki.fi/CoRD/corpora/HelsinkiCorpus/
+* Transformer: Vaswani et al., 2017: https://arxiv.org/abs/1706.03762
+  
+### Meta-NLLB-200:
+* No Language Left Behind (NLLB) project: https://research.facebook.com/
+* Abdelrahman et al., 2022: https://arxiv.org/abs/2204.01042
+  
+### Transformer:
+* Vaswani et al., 2017: https://arxiv.org/abs/1706.03762
+  
+### Custom Model:
+* TensorFlow documentation: https://www.tensorflow.org/
+* PyTorch documentation: https://pytorch.org/
+
+## Contributers
+
+- [@anubhav-0910](https://github.com/anubhav-0910)
+- [@imperialrogers](https://github.com/imperialrogers)
+- [@Mayank-kr-sh](https://github.com/Mayank-kr-sh)
+- [@Rohit-gits0](https://github.com/Rohit-gits0)
+- [@msriramsai23](https://github.com/msriramsai23)
+
 
 ## Acknowledgement
 
