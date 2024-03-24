@@ -66,11 +66,12 @@ This repository contains four machine learning models for Neural Machine Transla
 
 ## Contributers
 
+- [@msriramsai23](https://github.com/msriramsai23)
 - [@anubhav-0910](https://github.com/anubhav-0910)
 - [@imperialrogers](https://github.com/imperialrogers)
 - [@Mayank-kr-sh](https://github.com/Mayank-kr-sh)
 - [@Rohit-gits0](https://github.com/Rohit-gits0)
-- [@msriramsai23](https://github.com/msriramsai23)
+
 
 
 ## Acknowledgement
