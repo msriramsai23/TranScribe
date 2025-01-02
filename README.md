@@ -72,6 +72,7 @@ This repository contains four machine learning models for Neural Machine Transla
 - [@imperialrogers](https://github.com/imperialrogers)
 - [@Mayank-kr-sh](https://github.com/Mayank-kr-sh)
 - [@Rohit-gits0](https://github.com/Rohit-gits0)
+- [@shubhamIIIT](https://github.com/shubhamiiitdwd)
 
 
 
